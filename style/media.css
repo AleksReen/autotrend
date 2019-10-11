@@ -51,6 +51,14 @@
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
+
+    .header__logo-text {
+        font-size: 25px;
+        margin-top: 15px;
+        font-style: italic;
+        font-weight: 900;
+    }
+
     .header__nav {
         position: fixed;
         background-color: black;
