@@ -41,6 +41,8 @@
     font-size: 50px;
     margin-top: 10px;
     font-style: italic;
+    text-shadow: 1px 1px 1px black,
+               -1px 1px 1px black;
     font-weight: 900;
 }
 
@@ -81,6 +83,8 @@
 }
 
 .header__link {
+    text-shadow: 1px 1px 1px black,
+               -1px 1px 1px black;
     color: white;
     font-size: 18px;
     font-weight: bolder;

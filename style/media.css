@@ -52,6 +52,13 @@
 
 @media only screen and (max-width: 480px) {
 
+    .section-assort__text {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-size: 25px;
+    }
+
     .header__logo-text {
         font-size: 25px;
         margin-top: 15px;
