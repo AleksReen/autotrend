@@ -1,7 +1,6 @@
 $(document).ready(function() {
-
-
-    $("#header-menu, #toTop").on("click", ".anchor", function(event) {
+    $("#header-menu, #toTop, #section_mounting, #section_electrical, #section_painting, #section_roofing")
+    .on("click", ".anchor", function(event) {
         event.preventDefault();
         var id = $(this).attr('href'),
             top = $(id).offset().top;
@@ -9,5 +8,4 @@ $(document).ready(function() {
             scrollTop: top
         }, 500);
     });
-
 });

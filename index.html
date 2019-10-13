@@ -38,9 +38,9 @@
 
                     <div class="collapse navbar-collapse header__menu-container" id="menu">
                         <ul id="header-menu" class="menu header__menu">
-                            <li class="header__conteiner-link"><a class="header__link anchor" href="#works">Работы</a></li>
-                            <li class="header__conteiner-link"><a class="header__link anchor" href="#works">Услуги</a></li>
+                            <li class="header__conteiner-link"><a class="header__link anchor" href="#works">Работы и Услуги</a></li>
                             <li class="header__conteiner-link"><a class="header__link anchor" href="#advantage">Приемущества</a></li>
+                            <li class="header__conteiner-link"><a class="header__link anchor" href="#advantage">О Компании</a></li>
                             <li class="header__conteiner-link"><a class="header__link anchor" href="#employeers">Контакты</a></li>
                         </ul>
                     </div>
@@ -64,9 +64,9 @@
                     <h4 class="section-assort__title">Монтажные работы</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
+                            <div id="section_mounting" class="assort__description ">
                                 <p>Наши специалисты профессионально выполнят высотные монтажные работы любой сложности.</p>
-                                <p>Подробнее...</p>
+                                <button class="btn btn-info anchor" href="#mounting">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as11.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -77,9 +77,9 @@
                     <h4 class="section-assort__title">Электромонтажные работы</h4>
                     <div class="assort">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
+                            <div id="section_electrical" class="assort__description ">
                                 <p>Качественно и профессионально выполним любые электромонтажные работы.</p>
-                                <p>Подробнее...</p>
+                                <button class="btn btn-info anchor" href="#electrical">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as4.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -87,12 +87,14 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6 section-assort__grid ">
-                    <h4 class="section-assort__title">Фасадные работы</h4>
+                    <h4 class="section-assort__title">Фасадные и малярные работы</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
-                                <p>Мы имеем большой опыт в выполнении фасадных работ.</p>
-                                <p>Подробнее....</p>
+                            <div id="section_painting"class="assort__description ">
+                                <p>Мы имеем большой опыт в выполнении фасадных работ.
+                                    Выполняем весь спектор малярных работ.
+                                </p>
+                                <button class="btn btn-info anchor" href="#painting">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as7.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -100,12 +102,12 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6 section-assort__grid ">
-                    <h4 class="section-assort__title">Малярные работы</h4>
+                    <h4 class="section-assort__title">Кровельные работы</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
-                                <p>Весь спектор малярных работ.</p>
-                                <p>Подробнее...</p>
+                            <div id="section_roofing" class="assort__description ">
+                                <p>Весь спектор кровельных работ.</p>
+                                <button class="btn btn-info anchor" href="#roofing">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as2.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -167,7 +169,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="description">
         <div class="container-fluid ">
             <div class="row ">
                 <div class="section-assort__text ">
@@ -177,7 +179,7 @@
                 <div class="col-md-12">
                         <div class="col-md-6 col-sm-12 section-assort__grid ">
                                 <div style="padding: 0px 30px 0px 30px">
-                                        <h4 class="section-assort__title alert-info">Виды монтажных и строительно-монтажных работ</h4>
+                                        <h4 id="mounting" class="section-assort__title alert-info">Виды монтажных и строительно-монтажных работ</h4>
                                         <p>Все без исключения виды высотных монтажных работ. 
                                         От кондиционеров и небольших конструкций до сложного монтажа тяжелых и крупных объектов.</p>
                                         <ul class="list-group">
@@ -194,7 +196,7 @@
                             </div>
                             <div class="col-md-6 col-sm-12 section-assort__grid ">
                                 <div style="padding: 0px 30px 0px 30px">
-                                        <h4 class="section-assort__title alert-info">Электромонтажные работы</h4>  
+                                        <h4 id="electrical" class="section-assort__title alert-info">Электромонтажные работы</h4>  
                                         <p>Наши специалисты быстро и качественно произведут электромонтажные работы в жилых, офисных и производственных помещениях по доступной цене:</p>
                                         <ul class="list-group">
                                                 <li class="list-group-item">Проектирование и монтаж систем внутреннего электроснабжения</li>
@@ -214,14 +216,14 @@
                 <div class="col-md-12">
                         <div class="col-md-6 col-sm-12 section-assort__grid ">
                                 <div style="padding: 0px 30px 0px 30px">
-                                        <h4 class="section-assort__title alert-info">Фасадные работы</h4>  
+                                        <h4 id="painting" class="section-assort__title alert-info">Фасадные и малярные работы</h4>  
                                         <p>Наши сотрудники не только профессиональные альпинисты, но еще и квалифицированные штукатуры, 
                                             маляры, электрики. Все работы проводятся при помощи специального снаряжения, которое не оставляет после себя никаких повреждений.</p>
                                         <ul class="list-group">
                                                 <li class="list-group-item">Наружное утепление стен</li>
                                                 <li class="list-group-item">Герметизация межпанельных швов</li>
-                                                <li class="list-group-item">Штукатурка фасада</li>
-                                                <li class="list-group-item">Шпатлевка фасада</li>
+                                                <li class="list-group-item">Штукатурка и шпатлевка фасада</li>
+                                                <li class="list-group-item">Покраска фасада и антикоррозийная обработка металлоконструкций</li>
                                                 <li class="list-group-item">Мойка и очистка фасада</li>
                                                 <li class="list-group-item">Ремонт фасада</li>
                                         </ul>      
@@ -231,15 +233,15 @@
         
                             <div class="col-md-6 col-sm-12 section-assort__grid ">
                                     <div style="padding: 0px 30px 0px 30px">
-                                            <h4 class="section-assort__title alert-info">Малярные работы</h4>  
-                                            <p>Мы выполним декоративную разноцветную покраску здания, либо окрасим отдельные элементы (рамы окон, лепнину, трубы и прочее). Покраска и мойка фасада здания поможет избежать таких проблем как плесень, грибок, не эстетичный внешний вид.</p>
+                                            <h4 id="roofing" class="section-assort__title alert-info">Кровельные работы</h4>  
+                                            <p>Мы делаем кровельные работы на профессиональном уровне круглогодично, поэтому вы можете заказать работы под ключ даже зимой, не дожидаясь весны или лета. У нас есть все необходимое оборудование и фирменная одежда на все сезоны.</p>
                                             <ul class="list-group">
-                                                    <li class="list-group-item">Покраска фасада жилого дома</li>
-                                                    <li class="list-group-item">Покраска фасада административного здания</li>
-                                                    <li class="list-group-item">Покраска стен промышленного здания</li>
-                                                    <li class="list-group-item">Покраска металлоконструкций</li>
-                                                    <li class="list-group-item">Покраска водонапорной башни</li>
-                                                    <li class="list-group-item">Антикоррозийная обработка металлоконструкций</li>
+                                                    <li class="list-group-item">Монтаж металлочерепицы, ондулина, шифера c реконструкцией стропильной системы</li>
+                                                    <li class="list-group-item">Монтаж ондулина, металлочерепицы, шифера с заменой стропильной системы</li>
+                                                    <li class="list-group-item">Монтаж мягкой кровли</li>
+                                                    <li class="list-group-item">Монтаж модульной черепицы</li>
+                                                    <li class="list-group-item">Монтаж водосточной системы</li>
+                                                    <li class="list-group-item">Монтаж утеплителя</li>
                                             </ul>      
                                     </div>                        
                                 </div>
@@ -303,12 +305,19 @@
                                                 </div>
 
                                 </div>
+
+                                <div class="col-md-12">
+                                    
+                                    <div  style="padding: 0px 30px 0px 30px">
+                                        <div class="alert-success" style="text-align: center;">*Стоимость на монтажные работы в каждом случае рассчитывается индивидуально. 
+                                                Общая цена зависит от объема и сложности работ.
+                                            </div>
+                                        </div>
+                                    </div>
                                 
             </div>
         </div>
     </section>
-    
-
 
     <section class="section-advantage " id="advantage">
         <div class="conteiner ">
